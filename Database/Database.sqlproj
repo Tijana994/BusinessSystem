@@ -57,5 +57,17 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Schema objects" />
+    <Folder Include="Schema objects\Schemas" />
+    <Folder Include="Schema objects\Schemas\dbo" />
+    <Folder Include="Schema objects\Schemas\dbo\Programmability" />
+    <Folder Include="Schema objects\Schemas\dbo\Programmability\Functions" />
+    <Folder Include="Schema objects\Schemas\dbo\Programmability\Stored procedures" />
+    <Folder Include="Schema objects\Schemas\dbo\Programmability\Types" />
+    <Folder Include="Schema objects\Schemas\dbo\Tables" />
+    <Folder Include="Schema objects\Schemas\dbo\Tables\Indexes" />
+    <Folder Include="Schema objects\Schemas\dbo\Tables\Keys" />
+    <Folder Include="Schema objects\Schemas\dbo\Tables\Triggers" />
+    <Folder Include="Schema objects\Schemas\dbo\Views" />
   </ItemGroup>
 </Project>
